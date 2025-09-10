@@ -63,6 +63,7 @@ Weighing Machines </br>
 <img width="625" height="362" alt="image" src="https://github.com/user-attachments/assets/8119683b-9aa4-4ef9-9f76-a067953d2978" />
 
 ## PROGRAM
+```
 void setup() {
   pinMode(10,OUTPUT);
   pinMode(4,INPUT);
@@ -83,6 +84,7 @@ void loop() {
   }
 
 }
+```
 ## OUTPUT
 <img width="625" height="353" alt="image" src="https://github.com/user-attachments/assets/63ea0440-8947-4a2b-b0da-043d1760fe52" />
 <img width="634" height="338" alt="image" src="https://github.com/user-attachments/assets/bf2defa1-e905-45b5-8784-75aaf15c0156" />
