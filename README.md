@@ -1,3 +1,5 @@
+# NAME: TEJASHREE SS
+# REG NO: 212224100058
 # Led-control-using-Arduino
 
 ## AIM
@@ -58,9 +60,32 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
+<img width="625" height="362" alt="image" src="https://github.com/user-attachments/assets/8119683b-9aa4-4ef9-9f76-a067953d2978" />
 
 ## PROGRAM
+void setup() {
+  pinMode(10,OUTPUT);
+  pinMode(4,INPUT);
+}
 
+void loop() {
+  int button_status=digitalRead(4);
+  if (button_status==HIGH)
+  {
+    digitalWrite(10,HIGH);
+    delay(100);
+    digitalWrite(10,LOW);
+    delay(100);
+  }
+  else
+  {
+    digitalWrite(10,LOW);
+  }
+
+}
 ## OUTPUT
+<img width="625" height="353" alt="image" src="https://github.com/user-attachments/assets/63ea0440-8947-4a2b-b0da-043d1760fe52" />
+<img width="634" height="338" alt="image" src="https://github.com/user-attachments/assets/bf2defa1-e905-45b5-8784-75aaf15c0156" />
 
 ## RESULT
+Thus, to design and implement a system for LED control using an Arduino microcontroller and a push button has completed and verified successfully.
